@@ -1,0 +1,107 @@
+.navbar {
+    position: fixed;
+        /* important */
+    top: 0;
+    right: 3%;
+    width: 100%;
+    z-index: 10;
+    padding: 15px 40px;
+    z-index: 99999;
+        /* above everything */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+   
+}
+
+.nav-links div {
+    color: black;
+    cursor: pointer;
+    padding: 8px 5px;
+    
+}
+
+.explore {
+    border: 1px solid black;
+    padding: 6px 20px;
+    border-radius: 5px;
+    
+}
+
+/* Hide hamburger in desktop */
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+/* ============================= */
+/* MOBILE RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+            padding: 15px 20px;
+            /* reduce side padding */
+        }
+
+    .menu-icon {
+        display: block;       
+    }
+
+
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links div {
+        padding: 10px 0;
+        text-align: center;      
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .nav-links {
+        position: fixed;
+        top: 75px;
+        right: 3px;
+        flex-direction: column;
+        /* background: linear-gradient(135deg, #0fd9c3, #14b8a6, #8fe0f4); */
+        background: url("./assets/aerial-bg.jpg") center / cover no-repeat;
+        width: 180px;
+        padding: 20px;
+        border-radius: 10px;
+        display: none;
+    }
+}
+
+/* Larger mobiles / small tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 170px;
+        right: 3px;
+        flex-direction: column;
+        /* background: linear-gradient(135deg, #0fd9c3, #14b8a6, #8fe0f4); */
+        background: url("./assets/aerial-bg.jpg") center / cover no-repeat;
+        width: 180px;
+        padding: 20px;
+        border-radius: 10px;
+        display: none;
+    }
+}

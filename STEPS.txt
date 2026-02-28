@@ -1,0 +1,269 @@
+https://youtu.be/j9QmMEWmcfo
+
+https://youtu.be/sdHuRoesS7s
+
+
+code parrot ai:figma to code
+codeparrot.ai
+https://youtu.be/UcZeORKp1nE
+
+https://youtu.be/2e68ZvhFIO8
+=================================================================================================
+Microsoft Windows [Version 10.0.26100.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS>npm create vite@latest figmatoreact
+=================================================================================================
+npm create vite@latest figmatoreact
+=================================================================================================
+=================================================================================================
+google search 
+vite + tailwind css
+
+https://tailwindcss.com/docs/installation/using-vite
+
+Travel App
+https://www.figma.com/design/jss3bUuFLwcpircwQA8p13/Travel-App--Community-?t=17PTUb4oTFTtRTS7-0
+
+npm install react-icons
+npm install framer-motion
+npm install sweetalert2
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\6ipvxavE65KGJJXsDuYoEu\25 Full Stack Projects\13 QuickStay-Full-Stack-hotel-booking-app\QuickStay-FullStack\client
+=================================================================================================
+Microsoft Windows [Version 10.0.26100.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS>npm create vite@latest figmatoreact
+
+> npx
+> create-vite figmatoreact
+
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+|
+o  Use Vite 8 beta (Experimental)?:
+|  No
+|
+o  Install with npm and start now?
+|  Yes
+|
+o  Scaffolding project in E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact...
+|
+o  Installing dependencies with npm...
+
+added 157 packages, and audited 158 packages in 47s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+|
+o  Starting dev server...
+
+> figmatoreact@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 4362 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+npm install tailwindcss @tailwindcss/vite
+
+
+| Figma CSS            | What It Actually Means |
+| -------------------- | ---------------------- |
+| position: absolute   | Background layer       |
+| width: 1662px        | Desktop frame width    |
+| height: 1245px       | Desktop frame height   |
+| background: url(...) | Full page background   |
+
+
+DEPLOYMENT:
+=========
+https://github.com/
+gvnaressh@gmail.com
+Gvnaressh3695
+
+https://github.com/gvnaresshuser/figmatoreact
+
+git remote add origin https://github.com/gvnaresshuser/figmatoreact.git
+
+cd E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact
+git init
+git add .
+git commit -m "Initial commit"
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Niceee 🔥 let’s deploy your React app properly.
+
+Since you’re likely using **Vite + React** (based on your earlier setup), I’ll give you the clean production flow.
+
+We’ll do:
+
+1. Push to GitHub
+2. Deploy to Vercel
+
+---
+
+# ✅ STEP 1 — Push Project to GitHub
+
+## 🔹 1. Create New Repo in GitHub
+
+Go to:
+
+👉 [https://github.com](https://github.com)
+→ Click **New Repository**
+→ Give name (e.g., `travel-ui`)
+→ Create repo
+
+Do NOT initialize with README (since you already have project).
+
+---
+
+## 🔹 2. In Your Project Folder (Terminal)
+
+Navigate to your project:
+
+```bash
+cd your-project-folder
+```
+
+Initialize git (if not already):
+
+```bash
+git init
+```
+
+Add files:
+
+```bash
+git add .
+```
+
+Commit:
+
+```bash
+git commit -m "Initial commit"
+```
+
+Connect to GitHub (copy your repo URL):
+
+```bash
+git remote add origin https://github.com/yourusername/travel-ui.git
+```
+
+Push:
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+✅ Now your project is on GitHub.
+
+---
+
+# ✅ STEP 2 — Deploy to Vercel (Easiest Way)
+
+## 🔹 1. Go to Vercel
+
+👉 [https://vercel.com](https://vercel.com)
+Login using **GitHub**
+
+---
+
+## 🔹 2. Import Project
+
+* Click **Add New Project**
+* Select your GitHub repo
+* Click **Import**
+
+---
+
+## 🔹 3. Vercel Auto Detects Framework
+
+If using Vite, it will auto detect:
+
+* Framework: Vite
+* Build Command: `npm run build`
+* Output Directory: `dist`
+
+Just click:
+
+👉 **Deploy**
+
+---
+
+# ✅ Done 🎉
+
+After 1–2 minutes you’ll get:
+
+```
+https://your-project-name.vercel.app
+```
+
+Live on internet 🚀
+
+---
+
+# ⚠️ IMPORTANT (If Using React Router)
+
+If you use React Router, create a file:
+
+`vercel.json`
+
+```json
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+```
+
+Without this, refreshing routes will break.
+
+---
+
+# ✅ Optional — Auto Deploy On Every Push
+
+Now whenever you run:
+
+```bash
+git add .
+git commit -m "update"
+git push
+```
+
+Vercel auto redeploys.
+
+---
+
+# 🔥 Bonus: Custom Domain
+
+In Vercel dashboard:
+
+Settings → Domains → Add domain
+
+---
+
+# 💎 Summary
+
+| Step            | Tool   |
+| --------------- | ------ |
+| Version control | GitHub |
+| Hosting         | Vercel |
+| Auto deployment | Yes    |
+| Free            | Yes    |
+
+---
+
+

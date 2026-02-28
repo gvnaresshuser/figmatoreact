@@ -1,0 +1,272 @@
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>npm run dev
+
+> figmatoreact@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 17640 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+9:11:21 am [vite] Internal server error: Failed to resolve import "./logo.svg" from "src/assets/assets.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/src/assets/assets.js:1:18
+  1  |  import logo from './logo.svg'
+     |                    ^
+  2  |  import searchIcon from './searchIcon.svg'
+  3  |  import userIcon from './userIcon.svg'
+      at TransformPluginContext._formatLog (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:28999:43)
+      at TransformPluginContext.error (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:28996:14)
+      at normalizeUrl (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:27119:18)
+      at async file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:27177:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:27145:4)
+      at async EnvironmentPluginContainer.transform (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:22670:26)
+9:11:21 am [vite] (client) Pre-transform error: Failed to resolve import "./logo.svg" from "src/assets/assets.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/src/assets/assets.js:1:18
+  1  |  import logo from './logo.svg'
+     |                    ^
+  2  |  import searchIcon from './searchIcon.svg'
+  3  |  import userIcon from './userIcon.svg'
+9:12:26 am [vite] (client) hmr update /src/Hero.jsx
+9:12:26 am [vite] (client) Pre-transform error: Failed to resolve import "./logo.svg" from "src/assets/assets.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/src/assets/assets.js:1:18
+  1  |  import logo from './logo.svg'
+     |                    ^
+  2  |  import searchIcon from './searchIcon.svg'
+  3  |  import userIcon from './userIcon.svg'
+9:12:26 am [vite] (client) Pre-transform error: EBUSY: resource busy or locked, open 'E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact\src\assets\addIcon.svg'
+9:12:26 am [vite] (client) hmr update /src/Hero.jsx
+9:12:26 am [vite] (client) Pre-transform error: Failed to resolve import "./logo.svg" from "src/assets/assets.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/src/assets/assets.js:1:18
+  1  |  import logo from './logo.svg'
+     |                    ^
+  2  |  import searchIcon from './searchIcon.svg'
+  3  |  import userIcon from './userIcon.svg'
+9:12:26 am [vite] (client) Pre-transform error: EBUSY: resource busy or locked, open 'E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact\src\assets\badgeIcon.svg'
+9:12:26 am [vite] (client) hmr update /src/Hero.jsx
+9:12:26 am [vite] Internal server error: Failed to resolve import "./logo.svg" from "src/assets/assets.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/src/assets/assets.js:1:18
+  1  |  import logo from './logo.svg'
+     |                    ^
+  2  |  import searchIcon from './searchIcon.svg'
+  3  |  import userIcon from './userIcon.svg'
+      at TransformPluginContext._formatLog (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:28999:43)
+      at TransformPluginContext.error (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:28996:14)
+      at normalizeUrl (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:27119:18)
+      at async file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:27177:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:27145:4)
+      at async EnvironmentPluginContainer.transform (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/node_modules/vite/dist/node/chunks/config.js:24542:20)
+9:12:26 am [vite] (client) Pre-transform error: EBUSY: resource busy or locked, open 'E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact\src\assets\dashboardIcon.svg'
+9:12:27 am [vite] (client) hmr update /src/Hero.jsx
+9:12:35 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css
+9:13:09 am [vite] (client) hmr update /src/App.jsx, /src/index.css
+9:13:14 am [vite] (client) hmr update /src/App.jsx, /src/index.css (x2)
+9:13:21 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css
+9:13:21 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x2)
+9:13:49 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x3)
+9:14:33 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x4)
+9:14:33 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x5)
+9:16:47 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x6)
+9:17:26 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x7)
+9:17:38 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x8)
+9:17:40 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x9)
+9:17:44 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x10)
+9:17:47 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x11)
+9:17:51 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x12)
+9:17:58 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x13)
+9:18:01 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x14)
+9:18:13 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x15)
+10:17:21 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x16)
+10:17:21 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x17)
+10:17:31 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x18)
+10:17:31 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x19)
+10:17:39 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x20)
+10:17:49 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x21)
+10:17:49 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x22)
+10:17:53 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x23)
+10:18:56 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x24)
+10:18:59 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x25)
+10:19:03 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x26)
+10:20:09 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x27)
+10:21:52 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x28)
+10:22:16 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x29)
+10:22:21 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x30)
+10:22:25 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x31)
+10:22:36 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x32)
+10:22:54 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x33)
+10:22:54 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x34)
+10:24:02 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x35)
+10:24:19 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x36)
+10:24:24 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x37)
+10:24:32 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x38)
+10:24:43 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x39)
+10:24:47 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x40)
+10:25:22 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x41)
+10:25:25 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x42)
+10:25:30 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x43)
+10:25:36 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x44)
+10:25:41 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x45)
+10:25:54 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x46)
+10:25:58 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x47)
+10:26:06 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x48)
+10:26:11 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x49)
+10:26:20 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x50)
+10:26:23 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x51)
+10:26:28 am [vite] (client) hmr update /src/Hero.jsx, /src/index.css (x52)
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>git init
+Initialized empty Git repository in E:/MURALI/PERN-ADVANCED-APPLICATION/REACTJS-TRAINING-6-WEEKS/figmatoreact/.git/
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'eslint.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/addIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/arrowIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/badgeIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/calenderIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/closeIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/dashboardIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/facebookIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/freeBreakfastIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/freeWifiIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/guestsIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/heartIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/homeIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/instagramIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/linkendinIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/listIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/locationFilledIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/locationIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/menuIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/mountainIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/poolIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/roomServiceIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/searchIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/starIconFilled.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/starIconOutlined.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/totalBookingIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/totalRevenueIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/twitterIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/uploadArea.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/userIcon.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index copy.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>git commit -m "Initial commit"
+[master (root-commit) 2974f6e] Initial commit
+ 74 files changed, 5138 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 SCREENS/1.png
+ create mode 100644 SCREENS/2.png
+ create mode 100644 STEPS.txt
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/vite.svg
+ create mode 100644 src/App.css
+ create mode 100644 src/App.jsx
+ create mode 100644 src/Hero.jsx
+ create mode 100644 src/Navbar.css
+ create mode 100644 src/Navbar.jsx
+ create mode 100644 src/assets/1-removebg-preview.png
+ create mode 100644 src/assets/1.png
+ create mode 100644 src/assets/Bg.png
+ create mode 100644 src/assets/addIcon.svg
+ create mode 100644 src/assets/aerial-bg.jpg
+ create mode 100644 src/assets/aerial-view-blue-sea-boat-1.jpg
+ create mode 100644 src/assets/arrowIcon.svg
+ create mode 100644 src/assets/assets.js
+ create mode 100644 src/assets/badgeIcon.svg
+ create mode 100644 src/assets/calenderIcon.svg
+ create mode 100644 src/assets/cardImg1.jpg
+ create mode 100644 src/assets/cardImg2.jpg
+ create mode 100644 src/assets/cardImg3.jpg
+ create mode 100644 src/assets/closeIcon.svg
+ create mode 100644 src/assets/closeMenu.svg
+ create mode 100644 src/assets/dashboardIcon.svg
+ create mode 100644 src/assets/exclusiveOfferCardImg1.png
+ create mode 100644 src/assets/exclusiveOfferCardImg2.png
+ create mode 100644 src/assets/exclusiveOfferCardImg3.png
+ create mode 100644 src/assets/facebookIcon.svg
+ create mode 100644 src/assets/favicon.svg
+ create mode 100644 src/assets/freeBreakfastIcon.svg
+ create mode 100644 src/assets/freeWifiIcon.svg
+ create mode 100644 src/assets/guestsIcon.svg
+ create mode 100644 src/assets/heartIcon.svg
+ create mode 100644 src/assets/heroImage.png
+ create mode 100644 src/assets/homeIcon.svg
+ create mode 100644 src/assets/image-2-1.png
+ create mode 100644 src/assets/image-2.png
+ create mode 100644 src/assets/image-3 - Copy.png
+ create mode 100644 src/assets/image-3.png
+ create mode 100644 src/assets/instagramIcon.svg
+ create mode 100644 src/assets/linkendinIcon.svg
+ create mode 100644 src/assets/listIcon.svg
+ create mode 100644 src/assets/locationFilledIcon.svg
+ create mode 100644 src/assets/locationIcon.svg
+ create mode 100644 src/assets/logo.svg
+ create mode 100644 src/assets/menuIcon.svg
+ create mode 100644 src/assets/mountainIcon.svg
+ create mode 100644 src/assets/poolIcon.svg
+ create mode 100644 src/assets/react.svg
+ create mode 100644 src/assets/regImage.png
+ create mode 100644 src/assets/roomImg1.png
+ create mode 100644 src/assets/roomImg2.png
+ create mode 100644 src/assets/roomImg3.png
+ create mode 100644 src/assets/roomImg4.png
+ create mode 100644 src/assets/roomServiceIcon.svg
+ create mode 100644 src/assets/searchIcon.svg
+ create mode 100644 src/assets/starIconFilled.svg
+ create mode 100644 src/assets/starIconOutlined.svg
+ create mode 100644 src/assets/totalBookingIcon.svg
+ create mode 100644 src/assets/totalRevenueIcon.svg
+ create mode 100644 src/assets/twitterIcon.svg
+ create mode 100644 src/assets/uploadArea.svg
+ create mode 100644 src/assets/userIcon.svg
+ create mode 100644 src/index copy.css
+ create mode 100644 src/index.css
+ create mode 100644 src/main.jsx
+ create mode 100644 vite.config.js
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>git remote add origin https://github.com/gvnaresshuser/figmatoreact.git
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>git branch -M main
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>git push -u origin main
+Enumerating objects: 79, done.
+Counting objects: 100% (79/79), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (77/77), done.
+Writing objects: 100% (79/79), 12.17 MiB | 1.31 MiB/s, done.
+Total 79 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gvnaresshuser/figmatoreact.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact>

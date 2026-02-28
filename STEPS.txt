@@ -89,6 +89,7 @@ npm install tailwindcss @tailwindcss/vite
 
 DEPLOYMENT:
 =========
+✅ STEP 1 — Push Project to GitHub
 https://github.com/
 gvnaressh@gmail.com
 Gvnaressh3695
@@ -101,7 +102,57 @@ cd E:\MURALI\PERN-ADVANCED-APPLICATION\REACTJS-TRAINING-6-WEEKS\figmatoreact
 git init
 git add .
 git commit -m "Initial commit"
+git remote add origin https://github.com/gvnaresshuser/figmatoreact.git
+git branch -M main
+git push -u origin main
 
+✅ STEP 2 — Deploy to Vercel (Easiest Way)
+🔹 1. Go to Vercel
+
+👉 https://vercel.com
+
+Login using GitHub
+
+🔹 2. Import Project
+
+Click Add New Project
+
+Select your GitHub repo
+
+Click Import
+
+🔹 3. Vercel Auto Detects Framework
+
+If using Vite, it will auto detect:
+
+Framework: Vite
+
+Build Command: npm run build
+
+Output Directory: dist
+
+Just click:
+
+👉 Deploy
+
+✅ Done 🎉
+
+After 1–2 minutes you’ll get:
+
+https://your-project-name.vercel.app
+
+Live on internet 🚀
+https://figmatoreact-beta.vercel.app/
+---------------------------------------------
+✅ Optional — Auto Deploy On Every Push
+
+Now whenever you run:
+
+git add .
+git commit -m "update"
+git push
+
+Vercel auto redeploys.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Niceee 🔥 let’s deploy your React app properly.
 
